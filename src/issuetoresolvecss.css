@@ -1,0 +1,229 @@
+
+.slider {
+    border: 1px solid red;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+  }
+  
+  
+  .slide{
+  
+    border:2px solid blue;
+  min-width: 100%;
+  height:80%;
+  transition: 0.5s;
+  }
+  
+  .overlay{
+  
+  
+  
+    background-color: #0000008a;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  
+  
+  
+  .box{
+  
+  height: 80px;
+  border:2px solid red;
+  
+  
+  }
+  
+  
+  
+  
+  .transbox {
+    background-color: black;
+    opacity: 0.5;
+    /* height: 94vh;
+    width: 100%;
+    z-index: 1;
+    object-fit: cover;
+    position: absolute; */
+  
+    position: absolute;
+  width: 100%;
+  height: 92.5vh;
+  left: 50%;
+  right: 50%;
+  object-fit: cover;
+  transform: translate(-50%, 0%);
+  z-index: -1;
+  }
+  
+  div.transbox p {
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  
+  /* .videoplayerloop{
+  
+    
+      position: absolute;
+      z-index: 0;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: opacity .2s cubic-bezier(.2,0,.4,1);
+      opacity: .52;
+      -o-object-fit: cover;
+      object-fit: cover;
+  
+  } */
+  
+  #goleft{
+  
+  
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 80%;
+  
+  }
+  
+  .navbar{
+  
+    /* background-color: red; */
+    padding: 10px 30px;
+  
+    font-size: 15px;
+    font-family: "Gotham-Medium","Helvetica Neue","sans-serif";
+    letter-spacing: .28em;
+    
+  }
+  
+  
+  
+  
+  
+  
+  .headertext{
+  
+  
+    font-size: 15px;
+    font-family: "Gotham-Medium","Helvetica Neue","sans-serif";
+    letter-spacing: .27em;
+  
+  
+  }
+  
+  .section1{
+    /* background-color: red; */
+    height: 100vh;
+  
+   
+  
+    
+  }
+  
+  
+  
+  li.nav-item {
+    /* background: red; */
+    padding: 10px 35px;
+    color: #000000;
+  }
+  
+  
+  .videoplace{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: 50%;
+  right: 50%;
+  object-fit: cover;
+  transform: translate(-50%, 0%);
+  z-index: -1;
+  
+  
+  }
+  
+  
+  
+  
+  #goright{
+  
+  
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 80%;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  .carouselinner{
+  
+    transition: transform 137.333ms ease 0ms !important;
+  
+  }
+  
+  
+    .example-appear {
+      opacity: 0.04;
+   }
+   .example-appear.example-appear-active {
+      opacity: 2;
+      transition: opacity 50s ease-in;
+   }
+  
+  
+  
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
